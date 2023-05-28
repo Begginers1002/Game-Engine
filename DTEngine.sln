@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+
+# Visual Studio 2022
+
+
+
+Project("...") = "DTEngine", "Source\DTEngine\DTEngine.csproj", "{SOME-UNIQUE-ID}"
+
+EndProject
+
+
+
+Project("...") = "DTEditor", "Source\DTEditor\DTEditor.csproj", "{SOME-UNIQUE-ID}"
+
+EndProject
+
+
+
+Project("...") = "DTGame", "Source\DTGame\DTGame.csproj", "{SOME-UNIQUE-ID}"
+
+EndProject
+
+
+
+Global
+
+    GlobalSection(SolutionProperties) = preSolution
+
+        HideSolutionNode = FALSE
+
+    EndGlobalSection
+
+
+
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
+        {SOME-UNIQUE-ID}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+
+        {SOME-UNIQUE-ID}.Debug|Any CPU.Build.0 = Debug|Any CPU
+
+        {SOME-UNIQUE-ID}.Release|Any CPU.ActiveCfg = Release|Any CPU
+
+        {SOME-UNIQUE-ID}.Release|Any CPU.Build.0 = Release|Any CPU
+
+    EndGlobalSection
+
+
+
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+
+        Debug|Any CPU = Debug|Any CPU
+
+        Release|Any CPU = Release|Any CPU
+
+    EndGlobalSection
+
+
+
+    GlobalSection(ProjectDependencies) = postSolution
+
+        {SOME-UNIQUE-ID} = {SOME-UNIQUE-ID}
+
+        {SOME-UNIQUE-ID} = {SOME-UNIQUE-ID}
+
+    EndGlobalSection
+
+
+
+    GlobalSection(NestedProjects) = preSolution
+
+        {SOME-UNIQUE-ID} = {SOME-UNIQUE-ID}
+
+        {SOME-UNIQUE-ID} = {SOME-UNIQUE-ID}
+
+    EndGlobalSection
+
+EndGlobal
+
