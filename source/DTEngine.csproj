@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+
+
+  <PropertyGroup>
+
+    <TargetFramework>net6.0</TargetFramework>
+
+    <LangVersion>latest</LangVersion>
+
+    <OutputType>Library</OutputType>
+
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+
+    <Compile Include="DTEngine.cs" />
+
+    <!-- Add other source code files here -->
+
+  </ItemGroup>
+
+
+
+  <Target Name="Build" AfterTargets="Build">
+
+    <Exec Command="dotnet build $(MSBuildProjectFullPath)" />
+
+  </Target>
+
+
+
+</Project>
+
