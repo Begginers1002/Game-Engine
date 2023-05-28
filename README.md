@@ -1,5 +1,4 @@
-# Game-Engine
-This is my game engine named 'DT Engine'
+
 # DT Engine (Dimension Teleport Engine)
 
 
